@@ -66,4 +66,8 @@ public class ListaEnlazada {
     public void unshift(Object objeto) {
         primerNodo = new Nodo(objeto, primerNodo);
     }
+
+    public Nodo obtenerPrimerNodo() {
+        return primerNodo;
+    }
 }
